@@ -1,16 +1,65 @@
-# React + Vite
+# 🎓 School ID Card Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern web-based application to create professional student ID cards individually or in bulk with PDF export functionality.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+### 📝 Single ID Card Creation
+- Fill student details using a form
+- Upload:
+  - Student Photo
+  - School Logo
+  - Principal Signature
+- Live preview of ID card
+- Download individual ID card as PDF
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+### 📦 Bulk ID Card Generation
+- Upload student data using Excel/CSV file
+- Upload multiple student photos at once
+- Automatic photo matching using:
+  - Roll Number
+  - File Name
+  - Student Name
+- Generate 100+ ID cards instantly
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+### 🖨️ Professional PDF Export
+- Standard ID card size (CR80: 85.6mm × 54mm)
+- A4 layout (8 cards per page: 2×4 grid)
+- High-quality (300 DPI optimized)
+- Print-ready format
+- Multi-page support for large data
+
+---
+
+### 🎨 UI/UX Features
+- Live ID card preview
+- Dark / Light mode
+- Drag & drop uploads
+- Search students
+- Manage multiple records
+- Responsive design
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React.js
+- JavaScript
+- CSS (inline / Tailwind optional)
+
+### Libraries Used
+- `xlsx` → Excel/CSV parsing
+- `jspdf` → PDF generation
+- `html2canvas` → convert UI to image
+- React Hooks
+
+---
+
+## 📂 Project Structure
